@@ -6,6 +6,7 @@ Human presence and Bait harvesting appear to be major stresses on sandprawns (*
 This study will take place in Langebaan Lagoon, Western Cape, South Africa. It is a conservation area that is divided into zones of use. I will study Zone A, where human presence and bait harvesting are permitted. There is a gradient of human visitation. Most visitors occur at the start of zone A and almost no visitors are present at the end.
 
 I will quantify the sandprawn respiration rate and burrowing rate. I will compare these variables between sites with maximum human activity and sites with minimal activity. The second component of the study aims to help us understand whether there is local adaptation to recreational activity. This involves a reciprocal translocation experiment whereby individual sandprawns are transferred between the sites and monitored. Sandprawns will be harvested with a cylindrical prawn pump and released after observation.
+Data collection has not happened yet.
 
 #### Variables:
 1. Change in oxygen levels over time; measured with a respirometer. This is a proxy for Sandprawn respiration rate.
@@ -18,7 +19,7 @@ I will quantify the sandprawn respiration rate and burrowing rate. I will compar
 4. Visitor numbers; sampled via the scan-sampling method.
 
 ## Initial exploration
-bjflrjfqrejgel
+Initial exploration was done on dataset from a previous study that used the same sites. It is theorised that the difference in burrowing activity may effect the reproductive output of the sandprawns. Plots were produced from this dataset to compare the reproductive output between sandprawns across the gradient. 
 
 #### Variables: 
 1. Egg biomass (g)
