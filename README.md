@@ -28,3 +28,10 @@ Associate Professor Deena Pillay
 Masters student Mila Truter (co-supervisor)
 
 ## Contents:
+#### Data
+This file contains the excel file with an initial study of skfhfhrfkjg
+#### Code
+This file contains the code used to clean the data and produce an initial plot.
+#### Outputs
+This file contains the plot sjbajgkjfg
+#### Gitignore
