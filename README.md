@@ -1,7 +1,7 @@
 # **Differences in sandprawn burrowing activity in response to changes in human recreation and bait harvesting in Langebaan Lagoon**
 
 ## Project Summary:
-Human presence and Bait harvesting appear to be major stresses on sandprawns Kraussillichirus kraussi. The study aims to evaluate the effect of these stressors on the sandprawn's burrowing activity.
+Human presence and Bait harvesting appear to be major stresses on sandprawns (*Kraussillichirus kraussi*). The study aims to evaluate the effect of these stressors on the sandprawn's burrowing activity.
 
 This study will take place in Langebaan Lagoon, Western Cape, South Africa. It is a conservation area that is divided into zones of use. I will study Zone A, where human presence and bait harvesting are permitted. There is a gradient of human visitation. Most visitors occur at the start of zone A and almost no visitors are present at the end.
 
