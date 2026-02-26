@@ -57,6 +57,6 @@ This file shows the R packages used.
 This shows the version of R used.
 
 ## Binder
-insert icon + link
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ellajanehosking/Sandprawn-burrowing-honours-project/HEAD)
 
 
