@@ -1,0 +1,58 @@
+---
+title: "Data cleaning"
+output:
+  pdf_document: default
+  html_document: default
+date: "2026-02-23"
+---
+
+
+## Data cleaning for initial comparison of reproductive output between sites.
+This document outlines how the raw data was processed. The output is two plots. The first shows a comparison of sandprawn (Kraussillichirus kraussi) egg biomass across the five sites that were sampled. The second is a comparison of sandprawn embryo numbers across the sites.
+
+### Reading in the data
+
+```{r results='hide'}
+library(readxl)
+rawdata <- read_excel("Ella sandprawn data.xlsx")
+head(rawdata)
+tail(rawdata)
+```
+
+### Selecting the relevant coloumns: Site, Number of embryos and Egg biomass
+
+```{r}
+spdata <- rawdata[, c(3, 10, 11)]
+head(spdata)
+str(spdata)
+```
+
+### Converting Site from numeric to a factor
+
+``` {r}
+library(tidyverse)
+spdata <- spdata %>% mutate(Site= as.factor(Site))
+str(spdata)
+```
+
+### Removing observations where animals did not have eggs
+
+``` {r}
+clean_spdata <- spdata %>% filter(`Egg biomass (g)` > 0)
+head(clean_spdata)
+summary(clean_spdata)
+``` 
+
+### Creating boxplot of sandprawn egg biomass across sites
+
+``` {r}
+library(ggplot2)
+ggplot(data = clean_spdata, aes(x = Site, y = `Egg biomass (g)`)) + geom_boxplot() + labs(title = "Comparison of Sandprawn egg biomass across sites", x = "Site collected", y = " Egg biomass (g)")
+```
+
+### Creating boxplot of sandprawn embryo numbers across sites
+
+``` {r}
+ggplot(data = clean_spdata, aes(x = Site, y = `No. of embryos`)) + geom_boxplot() + labs(title = "Comparison of Sandprawn embryo numbers across sites", x = "Site collected", y = " Number of embryos")
+```
+
