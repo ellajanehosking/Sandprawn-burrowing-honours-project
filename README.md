@@ -37,3 +37,6 @@ This file contains the plot sjbajgkjfg
 #### Gitignore
 #### Binder
 insert icon + link
+
+## Licence
+
