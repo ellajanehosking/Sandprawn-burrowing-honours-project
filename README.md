@@ -7,11 +7,6 @@ This study will take place in Langebaan Lagoon, Western Cape, South Africa. It i
 
 I will quantify the sandprawn respiration rate and burrowing rate. I will compare these variables between sites with maximum human activity and sites with minimal activity. The second component of the study aims to help us understand whether there is local adaptation to recreational activity. This involves a reciprocal translocation experiment whereby individual sandprawns are transferred between the sites and monitored. Sandprawns will be harvested with a cylindrical prawn pump and released after observation.
 
-#### Sites:
-1. Site with maximum visitation
-Sites 2-4 represent the gradient with incremantal changes in levels of visitation. 
-5. Site with minimum visitation
-
 #### Variables:
 1. Change in oxygen levels over time; measured with a respirometer. This is a proxy for Sandprawn respiration rate.
 2. Sandprawn burrowing rate. This is the time taken for complete burial in the sand (seconds). 
@@ -22,8 +17,17 @@ Sites 2-4 represent the gradient with incremantal changes in levels of visitatio
 3. Sediment oxygentation; approximated by sediment colouration. 
 4. Visitor numbers; sampled via the scan-sampling method.
 
-## Link to Data Management Plan:
-insert link
+## Initial exploration
+bjflrjfqrejgel
+
+#### Variables: 
+1. Egg biomass (g)
+2. Embryo number
+
+#### Sites:
+- Site 1 = maximum visitation
+* Sites 2-4 = form the gradient of levels of visitation
++ Site 5 = minimum visitation
 
 ## Details about the author: 
 My name is Ella Jane Hosking. I am a honours student at the University of Cape Town. This is my honours project. 
@@ -34,15 +38,24 @@ Masters student Mila Truter (co-supervisor)
 
 ## Contents:
 #### Data
-This file contains the excel file with an initial study of skfhfhrfkjg
-#### Code
-This file contains the code used to clean the data and produce an initial plot.
-#### Outputs
-This file contains the plot sjbajgkjfg
+This file contains the excel file used for the initial exploration.
 #### Gitignore
-## Licence
+#### Data management plan
+A pdf containing the data management plan for the larger project has been provided.
+#### Data cleaning
+The code used to clean the data and produce two plots is provided in a Rmarkdown file. A pdf of the rendered version is available.
+#### Plots
+Two plots have been created:
+1. Egg biomass compared across the different sites.
+2. Embryo numbers compared across the different sites.
+#### Licence
 MT licence
-#### Binder
+#### Install R
+This file shows the R packages used.
+#### Runtime
+This shows the version of R used.
+
+## Binder
 insert icon + link
 
 
